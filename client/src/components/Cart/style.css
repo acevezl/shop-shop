@@ -46,6 +46,11 @@
   
   .cart-closed:hover {
     transform: rotate(8deg);
+    cursor: pointer!important;
+  }
+
+  .cart-closed:hover span {
+    cursor: pointer!important;
   }
   
   .cart img {
