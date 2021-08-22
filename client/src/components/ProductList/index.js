@@ -8,13 +8,20 @@ import spinner from '../../assets/spinner.gif';
 import { useEffect } from 'react';
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 
-import { useStoreContext } from "../../utils/GlobalState";
+// Redux refactor
+// import { useStoreContext } from "../../utils/GlobalState";
+import { useDispatch, useSelector } from 'react-redux';
 
 import { idbPromise } from "../../utils/helpers";
 
 function ProductList() {
 
-  const [state, dispatch] = useStoreContext();
+  // Redux refactor
+  // const [state, dispatch] = useStoreContext();
+  const state = useSelector((state) => {
+      return state
+  });
+  const dispatch = useDispatch();
 
   const { currentCategory } = state;
 
