@@ -3,6 +3,8 @@
 
 This project implements REDUX to replace React's Context API. The ultimate goal of this project is to implement the minimum amount of change to the React code.
 
+You can se the final result here: https://shopredux-arnaut.herokuapp.com/ - but keep reading for the full deets of Redux implementation.
+
 ## Table of Contents
 - [Redux Store](#redux-store)
   - [Table of Contents](#table-of-contents)
@@ -143,7 +145,10 @@ Inside the main component:
 At this point it is safe to remove GlobalState.js, as it is not referenced anymore on our app. In this repo you'll see I left the file in, but commented all the code out.
 
 ## Running the app
-With all changes above, the app is ready and refactored. Now using Redux.
+With all changes above, the app is ready and refactored. Now using Redux. You can see the live app here: https://shopredux-arnaut.herokuapp.com/
+
+![Shop with Redux implemented](shop-shop-redux.png)
+
 ## Questions
 E-mail me: <lou.arnaut@gmail.com>
 Checkout my Github profile: [acevezl](https://github.com/acevezl)
