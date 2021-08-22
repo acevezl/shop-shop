@@ -2,7 +2,7 @@ import React from 'react';
 
 // Redux refactor
 // import { useStoreContext } from "../../utils/GlobalState";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 
